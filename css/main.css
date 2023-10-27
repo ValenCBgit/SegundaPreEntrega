@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: darkgray;
+}
+.contenedor img {
+  width: 80vw;
+  width: 70vw;
+}
+
+.centrado {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #222;
+}
+
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #222;
+}
+
+h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #222;
+}
+
+.pie-pagina {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.pie-pagina ul {
+  list-style: none;
+  padding: 0;
+}
+.pie-pagina ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.pie-pagina a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 0;
+}
+header #btn_menu {
+  display: none;
+}
+header label {
+  display: none;
+}
+header label:hover {
+  cursor: pointer;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.discos {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+.discos img {
+  width: 250px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+$color_1: white;
+$background-color_1: rgb(0, 0, 0);
+
+.pie-pagina {
+	background-color: $background-color_1;
+	padding: 20px;
+	text-align: center;
+	color: $color_1;
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			display: inline;
+			margin-right: 10px;
+		}
+	}
+	a {
+		color: $color_1;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}

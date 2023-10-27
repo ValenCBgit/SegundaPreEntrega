@@ -1,0 +1,50 @@
+$background-color_1: darkgray;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contenedor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: $background-color_1;
+	img {
+		width: 80vw;
+		width: 70vw;
+	}
+}
+.centrado {
+	max-width: 100%;
+	height: auto;
+}
+
+$color_1: #333;
+$color_2: #222;
+$font-family_1: Arial, sans-serif;
+$font-family_2: 'Helvetica Neue', sans-serif;
+
+body {
+	font-family: $font-family_1;
+	font-size: 16px;
+	line-height: 1.6;
+	color: $color_1;
+}
+h1 {
+	font-family: $font-family_2;
+	font-weight: bold;
+	color: $color_2;
+}
+h2 {
+	font-family: $font-family_2;
+	font-weight: bold;
+	color: $color_2;
+}
+h3 {
+	font-family: $font-family_2;
+	font-weight: bold;
+	color: $color_2;
+}
