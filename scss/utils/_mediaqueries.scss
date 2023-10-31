@@ -1,0 +1,49 @@
+$background-color_1: rgb(0, 0, 0);
+
+/* header */
+@media screen and (max-width: 768px) {
+	.contenedor {
+		flex-direction: column;
+		align-items: center;
+		img {
+			width: 70vw;
+		}
+	}
+	.contenedor-texto {
+		text-align: center;
+	}
+	.centrado {
+		width: 80vw;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		label {
+			display: block;
+			position: relative;
+			left: 25px;
+			img {
+				width: 50px;
+			}
+		}
+	}
+	.menu {
+		position: absolute;
+		top: 50px;
+		background-color: $background-color_1;
+		visibility: hidden;
+		width: 100vw;
+	}
+	#btn_menu {
+		&:checked~.menu {
+			visibility: visible;
+		}
+	}
+	.discos {
+		flex-direction: column;
+		img {
+			margin: 20px;
+		}
+	}
+}
